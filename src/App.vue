@@ -11,7 +11,7 @@
     </header>
     <RouterView />
     <footer class="app__footer">
-      <span>Made with 🍺 by <a href="https://mihau.co/" target="_blank">mihau.co</a></span>
+      <span>Made by <a href="https://mihau.co/" target="_blank">mihau.co</a> (<a href="https://buycoffee.to/mihau.co" target="_blank">buy me a coffee</a>)</span> <a href="https://github.com/mihauco/eurovision-ranking" target="_blank">Github</a>
     </footer>
   </div>
 </template>
@@ -25,7 +25,7 @@ import { RouterView } from 'vue-router'
   max-width: 430px;
   margin: 0 auto;
   overflow: hidden;
-  padding-bottom: 30px;
+  padding-bottom: 40px;
 
   &__header {
     padding: 15px 15px 15px;
@@ -61,7 +61,7 @@ import { RouterView } from 'vue-router'
     background: linear-gradient(to right, #373b44, #4286f4);
     padding: 5px 15px;
     color: #fff;
-    font-size: 12px;
+    font-size: 14px;
     box-shadow: 0 0 10px 0 #000;
     position: fixed;
     bottom: 0;
@@ -70,10 +70,10 @@ import { RouterView } from 'vue-router'
     width: 100vw;
     max-width: 430px;
     z-index: 100;
-    height: 30px;
+    height: 40px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 
     a,
     a:visited,
