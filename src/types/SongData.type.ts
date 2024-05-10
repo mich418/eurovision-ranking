@@ -2,7 +2,8 @@ type SongData = {
   country: string
   country_code: string
   artist: string
-  song: string
+  song: string,
+  youtubeUrl?: string
 }
 
 export type { SongData };

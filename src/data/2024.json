@@ -4,157 +4,183 @@
       "country": "Italy",
       "country_code": "IT",
       "artist": "Angelina Mango",
-      "song": "La noia"
+      "song": "La noia",
+      "youtubeUrl": "https://www.youtube.com/watch?v=TO85laH-ATY"
     },
     {
       "country": "Cyprus",
       "country_code": "CY",
       "artist": "Silia Kapsis",
-      "song": "Liar"
+      "song": "Liar",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8q5QozrtEPA"
     },
     {
       "country": "Spain",
       "country_code": "ES",
       "artist": "Nebulossa",
-      "song": "ZORRA"
+      "song": "ZORRA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=LJFpexlj9Bs"
     },
     {
       "country": "Croatia",
       "country_code": "HR",
       "artist": "Baby Lasagna",
-      "song": "Rim Tim Tagi Dim"
+      "song": "Rim Tim Tagi Dim",
+      "youtubeUrl": "https://www.youtube.com/watch?v=xTBrVNZtnys"
     },
     {
       "country": "Greece",
       "country_code": "GR",
       "artist": "Marina Satti",
-      "song": "ZARI"
+      "song": "ZARI",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uTYalXf184A"
     },
     {
       "country": "Ukraine",
       "country_code": "UA",
       "artist": "alyona alyona & Jerry Heil",
-      "song": "Teresa & Maria"
+      "song": "Teresa & Maria",
+      "youtubeUrl": "https://www.youtube.com/watch?v=k_8cNbF8FLI"
     },
     {
       "country": "Ireland",
       "country_code": "IE",
       "artist": "Bambie Thug",
-      "song": "Doomsday Blue"
+      "song": "Doomsday Blue",
+      "youtubeUrl": "https://www.youtube.com/watch?v=ZGRXRrlIspY"
     },
     {
       "country": "Estonia",
       "country_code": "EE",
       "artist": "5MIINUST x Puuluup",
-      "song": "(nendest) narkootikumidest ei tea me (küll) midagi"
+      "song": "(nendest) narkootikumidest ei tea me (küll) midagi",
+      "youtubeUrl": "https://www.youtube.com/watch?v=zY6RbPaTNUc"
     },
     {
       "country": "Serbia",
       "country_code": "RS",
       "artist": "TEYA DORA",
-      "song": "RAMONDA"
+      "song": "RAMONDA",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tJyBVRBiyKA"
     },
     {
       "country": "Luxembourg",
       "country_code": "LU",
       "artist": "TALI",
-      "song": "Fighter"
+      "song": "Fighter",
+      "youtubeUrl": "https://www.youtube.com/watch?v=6CNuXpdyYmE"
     },
     {
       "country": "Switzerland",
       "country_code": "CH",
       "artist": "Nemo",
-      "song": "The Code"
+      "song": "The Code",
+      "youtubeUrl": "https://www.youtube.com/watch?v=kiGDvM14Kwg"
     },
     {
       "country": "Germany",
       "country_code": "DE",
       "artist": "ISAAK",
-      "song": "Always On The Run"
+      "song": "Always On The Run",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8b5gcgXcWgk"
     },
     {
       "country": "Portugal",
       "country_code": "PT",
       "artist": "iolanda",
-      "song": "Grito"
+      "song": "Grito",
+      "youtubeUrl": "https://www.youtube.com/watch?v=K5wDGhcDSpQ"
     },
     {
       "country": "Latvia",
       "country_code": "LV",
       "artist": "Dons",
-      "song": "Hollow"
+      "song": "Hollow",
+      "youtubeUrl": "https://www.youtube.com/watch?v=p8FNO0DtBng"
     },
     {
       "country": "Georgia",
       "country_code": "GE",
       "artist": "Nutsa Buzaladze",
-      "song": "Firefighter"
+      "song": "Firefighter",
+      "youtubeUrl": "https://www.youtube.com/watch?v=blMwY8Jabyk"
     },
     {
       "country": "Slovenia",
       "country_code": "SI",
       "artist": "Raiven",
-      "song": "Veronika"
+      "song": "Veronika",
+      "youtubeUrl": "https://www.youtube.com/watch?v=uWcSsi7SliI"
     },
     {
       "country": "Austria",
       "country_code": "AT",
       "artist": "Kaleen",
-      "song": "We Will Rave"
+      "song": "We Will Rave",
+      "youtubeUrl": "https://www.youtube.com/watch?v=Kqda15G4T-4"
     },
     {
       "country": "Armenia",
       "country_code": "AM",
       "artist": "LADANIVA",
-      "song": "Jako"
+      "song": "Jako",
+      "youtubeUrl": "https://www.youtube.com/watch?v=_6xfmW0Fc40"
     },
     {
       "country": "United Kingdom",
       "country_code": "GB",
       "artist": "Olly Alexander",
-      "song": "Dizzy"
+      "song": "Dizzy",
+      "youtubeUrl": "https://www.youtube.com/watch?v=mvs92WfR8lM"
     },
     {
       "country": "Lithuania",
       "country_code": "LT",
       "artist": "Silvester Belt",
-      "song": "Luktelk"
+      "song": "Luktelk",
+      "youtubeUrl": "https://www.youtube.com/watch?v=OrL668EQRu0"
     },
     {
       "country": "Netherlands",
       "country_code": "NL",
       "artist": "Joost Klein",
-      "song": "Europapa"
+      "song": "Europapa",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gT2wY0DjYGo"
     },
     {
       "country": "France",
       "country_code": "FR",
       "artist": "Slimane",
-      "song": "Mon amour"
+      "song": "Mon amour",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tfoOop2HXxQ"
     },
     {
       "country": "Finland",
       "country_code": "FI",
       "artist": "Windows95man",
-      "song": "No Rules!"
+      "song": "No Rules!",
+      "youtubeUrl": "https://www.youtube.com/watch?v=8Wi7fhswoBA"
     },
     {
       "country": "Norway",
       "country_code": "NO",
       "artist": "Gåte",
-      "song": "Ulveham"
+      "song": "Ulveham",
+      "youtubeUrl": "https://www.youtube.com/watch?v=tFj0p2qIgdE"
     },
     {
       "country": "Sweden",
       "country_code": "SE",
       "artist": "Marcus & Martinus",
-      "song": "Unforgettable"
+      "song": "Unforgettable",
+      "youtubeUrl": "https://www.youtube.com/watch?v=yekc8t0rJqA"
     },
     {
       "country": "Israel",
       "country_code": "IL",
       "artist": "Eden Golan",
-      "song": "Hurricane"
+      "song": "Hurricane",
+      "youtubeUrl": "https://www.youtube.com/watch?v=lJYn09tuPw4"
     }
   ]
 }

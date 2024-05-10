@@ -16,17 +16,29 @@
       <span class="country-row__song">{{ songData.song }}</span>
       <span class="country-row__artist">by {{ songData.artist }}</span>
     </div>
-    <div class="country-row__move">
-      <span>MOVE</span>
-      <select v-model="selectedPlace">
-        <option
-          v-for="place in places"
-          :value="place"
-          :disabled="place === selectedPlace"
-        >
-          {{ place }}
-        </option>
-      </select>
+    <div class="country-row__actions">
+      <a
+        v-if="songData.youtubeUrl"
+        class="country-row__button country-row__button--youtube"
+        :href="songData.youtubeUrl"
+        target="_blank"
+      >
+        <img src="/youtube-app-white-icon.webp?url" alt="YouTube" />
+      </a>
+      <div class="country-row__button country-row__button--move">
+        <select v-model="selectedPlace">
+          <option disabled>
+            Move to...
+          </option>
+          <option
+            v-for="place in places"
+            :value="place"
+            :disabled="place === selectedPlace"
+          >
+            {{ place }}
+          </option>
+        </select>
+      </div>
     </div>
   </div>
 </template>
@@ -60,7 +72,7 @@ const selectedPlace = computed({
   background: linear-gradient(to right, #373b44, #4286f4);
   color: #fff;
   position: relative;
-  padding: 0 15px 0 85px;
+  padding: 0 15px 0 80px;
   overflow: hidden;
   display: flex;
   justify-content: space-between;
@@ -68,7 +80,7 @@ const selectedPlace = computed({
 
   &__place {
     position: absolute;
-    width: 85px;
+    width: 80px;
     height: calc(100% + 10px);
     top: -5px;
     left: -15px;
@@ -122,7 +134,7 @@ const selectedPlace = computed({
 
   &__song-info {
     padding: 10px 15px;
-    width: calc(100% - 85px - 30px);
+    width: calc(100% - 90px - 30px);
   }
 
   &__country-name {
@@ -151,24 +163,69 @@ const selectedPlace = computed({
     font-size: 12px;
   }
 
-  &__move {
-    width: 75px;
-    height: 40px;
-    border-radius: 20px;
-    background: linear-gradient(to right, #d1913c, #ffd194);
-    position: relative;
+  &__actions {
+    width: 90px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+  }
 
-    select {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      opacity: 0;
-      cursor: pointer;
+  &__button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+
+    &--move {
+      background: linear-gradient(to right, #d1913c, #ffd194);
+      margin-left: 10px;
+
+      &:before,
+      &:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+        border-top: 10px solid #fff;
+        left: 50%;
+      }
+
+      &:before {
+        top: 8px;
+        transform: translateX(-50%) rotate(180deg);
+      }
+
+      &:after {
+        bottom: 8px;
+        transform: translateX(-50%);
+      }
+
+      select {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        cursor: pointer;
+        z-index: 1;
+      }
+    }
+
+    &--youtube {
+      background: linear-gradient(to right, #93291e, #ed213a);
+
+      img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 24px;
+        height: 24px;
+        object-fit: contain;
+      }
     }
   }
 }
