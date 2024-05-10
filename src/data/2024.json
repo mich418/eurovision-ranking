@@ -13,12 +13,6 @@
       "song": "Liar"
     },
     {
-      "country": "Israel",
-      "country_code": "IL",
-      "artist": "Eden Golan",
-      "song": "Hurricane"
-    },
-    {
       "country": "Spain",
       "country_code": "ES",
       "artist": "Nebulossa",
@@ -155,6 +149,12 @@
       "country_code": "SE",
       "artist": "Marcus & Martinus",
       "song": "Unforgettable"
+    },
+    {
+      "country": "Israel",
+      "country_code": "IL",
+      "artist": "Eden Golan",
+      "song": "Hurricane"
     }
   ]
 }
