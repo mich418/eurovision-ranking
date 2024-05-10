@@ -1,0 +1,160 @@
+{
+  "final": [
+    {
+      "country": "Italy",
+      "country_code": "IT",
+      "artist": "Angelina Mango",
+      "song": "La noia"
+    },
+    {
+      "country": "Cyprus",
+      "country_code": "CY",
+      "artist": "Silia Kapsis",
+      "song": "Liar"
+    },
+    {
+      "country": "Israel",
+      "country_code": "IL",
+      "artist": "Eden Golan",
+      "song": "Hurricane"
+    },
+    {
+      "country": "Spain",
+      "country_code": "ES",
+      "artist": "Nebulossa",
+      "song": "ZORRA"
+    },
+    {
+      "country": "Croatia",
+      "country_code": "HR",
+      "artist": "Baby Lasagna",
+      "song": "Rim Tim Tagi Dim"
+    },
+    {
+      "country": "Greece",
+      "country_code": "GR",
+      "artist": "Marina Satti",
+      "song": "ZARI"
+    },
+    {
+      "country": "Ukraine",
+      "country_code": "UA",
+      "artist": "alyona alyona & Jerry Heil",
+      "song": "Teresa & Maria"
+    },
+    {
+      "country": "Ireland",
+      "country_code": "IE",
+      "artist": "Bambie Thug",
+      "song": "Doomsday Blue"
+    },
+    {
+      "country": "Estonia",
+      "country_code": "EE",
+      "artist": "5MIINUST x Puuluup",
+      "song": "(nendest) narkootikumidest ei tea me (küll) midagi"
+    },
+    {
+      "country": "Serbia",
+      "country_code": "RS",
+      "artist": "TEYA DORA",
+      "song": "RAMONDA"
+    },
+    {
+      "country": "Luxembourg",
+      "country_code": "LU",
+      "artist": "TALI",
+      "song": "Fighter"
+    },
+    {
+      "country": "Switzerland",
+      "country_code": "CH",
+      "artist": "Nemo",
+      "song": "The Code"
+    },
+    {
+      "country": "Germany",
+      "country_code": "DE",
+      "artist": "ISAAK",
+      "song": "Always On The Run"
+    },
+    {
+      "country": "Portugal",
+      "country_code": "PT",
+      "artist": "iolanda",
+      "song": "Grito"
+    },
+    {
+      "country": "Latvia",
+      "country_code": "LV",
+      "artist": "Dons",
+      "song": "Hollow"
+    },
+    {
+      "country": "Georgia",
+      "country_code": "GE",
+      "artist": "Nutsa Buzaladze",
+      "song": "Firefighter"
+    },
+    {
+      "country": "Slovenia",
+      "country_code": "SI",
+      "artist": "Raiven",
+      "song": "Veronika"
+    },
+    {
+      "country": "Austria",
+      "country_code": "AT",
+      "artist": "Kaleen",
+      "song": "We Will Rave"
+    },
+    {
+      "country": "Armenia",
+      "country_code": "AM",
+      "artist": "LADANIVA",
+      "song": "Jako"
+    },
+    {
+      "country": "United Kingdom",
+      "country_code": "GB",
+      "artist": "Olly Alexander",
+      "song": "Dizzy"
+    },
+    {
+      "country": "Lithuania",
+      "country_code": "LT",
+      "artist": "Silvester Belt",
+      "song": "Luktelk"
+    },
+    {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "artist": "Joost Klein",
+      "song": "Europapa"
+    },
+    {
+      "country": "France",
+      "country_code": "FR",
+      "artist": "Slimane",
+      "song": "Mon amour"
+    },
+    {
+      "country": "Finland",
+      "country_code": "FI",
+      "artist": "Windows95man",
+      "song": "No Rules!"
+    },
+    {
+      "country": "Norway",
+      "country_code": "NO",
+      "artist": "Gåte",
+      "song": "Ulveham"
+    },
+    {
+      "country": "Sweden",
+      "country_code": "SE",
+      "artist": "Marcus & Martinus",
+      "song": "Unforgettable"
+    }
+  ]
+}
