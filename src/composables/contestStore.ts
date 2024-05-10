@@ -10,7 +10,7 @@ const contestData = (() => {
   if (localStorageRankingData) {
     const rankingData = JSON.parse(localStorageRankingData);
 
-    const final = rankingData.map((country_code: string) => {
+    const final = rankingData.final.map((country_code: string) => {
       return defaultContestData.final.find((song) => song.country_code === country_code)
     }).filter((song: any) => song !== undefined)
 
