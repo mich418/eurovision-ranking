@@ -27,8 +27,6 @@ import useContestStore from '@/composables/contestStore'
 
 const { contestData, disqualifiedSongs } = useContestStore()
 
-console.log(disqualifiedSongs);
-
 const changeSongIndex = (oldIndex: number, newIndex: number) => {
   const songToMove = contestData.value.final.splice(oldIndex, 1)
   contestData.value.final.splice(newIndex, 0, ...songToMove)
