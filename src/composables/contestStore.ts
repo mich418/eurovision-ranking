@@ -1,17 +1,17 @@
-import { ref, watch } from "vue";
+import { ref, watch, computed } from "vue";
 import type { ContestData } from "@/types/ContestData.type";
 import defaultContestData from "@/data/2024.json";
 import type { SongData } from "@/types/SongData.type";
 
 const contestData = (() => {
   const localStorageRankingData = localStorage.getItem("rankingData");
-  
+  const finalSongs = defaultContestData.final.filter(song => !song.disqualified);
 
   if (localStorageRankingData) {
     const rankingData = JSON.parse(localStorageRankingData);
 
     const final = rankingData.final.map((country_code: string) => {
-      return defaultContestData.final.find((song) => song.country_code === country_code)
+      return finalSongs.find((song) => song.country_code === country_code)
     }).filter((song: any) => song !== undefined)
 
     return ref<ContestData>({ final })
@@ -23,7 +23,7 @@ const contestData = (() => {
   if (localStorageDataJson) {
     return ref<ContestData>({
       final: JSON.parse(localStorageDataJson).final.map(({country_code}: SongData) => {
-        return defaultContestData.final.find((song) => song.country_code === country_code)
+        return finalSongs.find((song) => song.country_code === country_code)
       }).filter((song: any) => song !== undefined)
     })
   }
@@ -43,7 +43,8 @@ watch(
 
 const useContestStore = () => {
   return {
-    contestData
+    contestData,
+    disqualifiedSongs: computed(() => defaultContestData.final.filter(song => song.disqualified))
   }
 } 
 

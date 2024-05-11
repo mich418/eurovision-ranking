@@ -1,18 +1,23 @@
 <template>
-  <div class="country-row">
+  <div
+    class="country-row"
+    :class="{
+      'country-row--disqualified': disqualified
+    }"
+  >
     <div
       class="country-row__place"
-      :class="[`country-row__place--${selectedPlace}`]"
+      :class="[!disqualified && `country-row__place--${selectedPlace}`]"
     >
       <div class="country-row__place-inner">
-        {{ selectedPlace }}
+        {{ disqualified ? '-' : selectedPlace }}
       </div>
     </div>
     <div class="country-row__flag-wrapper">
       <span :class="`country-row__flag fi fis fi-${songData.country_code.toLocaleLowerCase() }`"></span>
     </div>
     <div class="country-row__song-info">
-      <span class="country-row__country-name">{{ songData.country }}</span>
+      <span class="country-row__country-name">{{ songData.country }}{{ disqualified ? ' (Disqualified)' : '' }}</span>
       <span class="country-row__song">{{ songData.song }}</span>
       <span class="country-row__artist">by {{ songData.artist }}</span>
     </div>
@@ -26,7 +31,10 @@
         <img src="/youtube-app-white-icon.webp?url" alt="YouTube" />
       </a>
       <div class="country-row__button country-row__button--move">
-        <select v-model="selectedPlace">
+        <select
+          v-if="!disqualified"
+          v-model="selectedPlace"
+        >
           <option disabled>
             Move to...
           </option>
@@ -49,8 +57,9 @@ import type { SongData } from '@/types/SongData.type';
 
 const props = defineProps<{
   songData: SongData;
-  place: number;
-  places: number;
+  place: number
+  places: number
+  disqualified?: boolean
 }>();
 
 const emit = defineEmits<{
@@ -77,6 +86,10 @@ const selectedPlace = computed({
   display: flex;
   justify-content: space-between;
   align-items: center;
+
+  &--disqualified {
+    filter: grayscale(0.8);
+  }
 
   &__place {
     position: absolute;

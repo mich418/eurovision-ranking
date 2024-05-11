@@ -145,7 +145,8 @@
       "country_code": "NL",
       "artist": "Joost Klein",
       "song": "Europapa",
-      "youtubeUrl": "https://www.youtube.com/watch?v=gT2wY0DjYGo"
+      "youtubeUrl": "https://www.youtube.com/watch?v=gT2wY0DjYGo",
+      "disqualified": true
     },
     {
       "country": "France",

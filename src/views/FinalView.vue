@@ -9,6 +9,15 @@
       :places="contestData.final.length"
       @moveSong="(newPlace) => changeSongIndex(index, newPlace - 1)"
     />
+    <CountryRow
+      class="final-view__country-row"
+      v-for="(songData, index) in disqualifiedSongs"
+      :key="songData.country_code"
+      :songData="songData"
+      :place="index + 1"
+      :places="contestData.final.length"
+      :disqualified="true"
+    />
   </div>
 </template>
 
@@ -16,7 +25,9 @@
 import CountryRow from '@/components/CountryRow.vue'
 import useContestStore from '@/composables/contestStore'
 
-const { contestData } = useContestStore()
+const { contestData, disqualifiedSongs } = useContestStore()
+
+console.log(disqualifiedSongs);
 
 const changeSongIndex = (oldIndex: number, newIndex: number) => {
   const songToMove = contestData.value.final.splice(oldIndex, 1)

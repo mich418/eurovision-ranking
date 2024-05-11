@@ -3,7 +3,8 @@ type SongData = {
   country_code: string
   artist: string
   song: string,
-  youtubeUrl?: string
+  youtubeUrl?: string,
+  disqualified?: boolean
 }
 
 export type { SongData };
