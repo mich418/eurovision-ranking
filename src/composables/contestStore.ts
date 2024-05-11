@@ -5,14 +5,13 @@ import type { SongData } from "@/types/SongData.type";
 
 const contestData = (() => {
   const localStorageRankingData = localStorage.getItem("rankingData");
-  const finalSongs = defaultContestData.final.filter(song => !song.disqualified);
 
   if (localStorageRankingData) {
     const rankingData = JSON.parse(localStorageRankingData);
 
     const final = rankingData.final.map((country_code: string) => {
-      return finalSongs.find((song) => song.country_code === country_code)
-    }).filter((song: any) => song !== undefined)
+      return defaultContestData.final.find((song) => song.country_code === country_code)
+    }).filter((song: any) => song !== undefined && !song.disqualified)
 
     return ref<ContestData>({ final })
   }
@@ -23,8 +22,8 @@ const contestData = (() => {
   if (localStorageDataJson) {
     return ref<ContestData>({
       final: JSON.parse(localStorageDataJson).final.map(({country_code}: SongData) => {
-        return finalSongs.find((song) => song.country_code === country_code)
-      }).filter((song: any) => song !== undefined)
+        return defaultContestData.final.find((song) => song.country_code === country_code)
+      }).filter((song: any) => song !== undefined && !song.disqualified)
     })
   }
 
