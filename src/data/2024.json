@@ -1,6 +1,14 @@
 {
   "final": [
     {
+      "country": "Netherlands",
+      "country_code": "NL",
+      "artist": "Joost Klein",
+      "song": "Europapa",
+      "youtubeUrl": "https://www.youtube.com/watch?v=gT2wY0DjYGo",
+      "disqualified": false
+    },
+    {
       "country": "Italy",
       "country_code": "IT",
       "artist": "Angelina Mango",
@@ -139,14 +147,6 @@
       "artist": "Silvester Belt",
       "song": "Luktelk",
       "youtubeUrl": "https://www.youtube.com/watch?v=OrL668EQRu0"
-    },
-    {
-      "country": "Netherlands",
-      "country_code": "NL",
-      "artist": "Joost Klein",
-      "song": "Europapa",
-      "youtubeUrl": "https://www.youtube.com/watch?v=gT2wY0DjYGo",
-      "disqualified": true
     },
     {
       "country": "France",

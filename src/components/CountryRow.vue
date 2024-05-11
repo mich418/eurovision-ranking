@@ -32,14 +32,14 @@
       </a>
       <div class="country-row__button country-row__button--move">
         <select
-          v-if="!disqualified && songData.country_code.toLocaleLowerCase() !== 'il'"
+          v-if="!disqualified"
           v-model="selectedPlace"
         >
           <option disabled>
             Move to...
           </option>
           <option
-            v-for="place in places - 1"
+            v-for="place in places"
             :value="place"
             :disabled="place === selectedPlace"
           >
