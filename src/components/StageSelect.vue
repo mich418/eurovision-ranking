@@ -60,7 +60,6 @@ const stageOptions: {name: string, date: string, value: Stage, disabled?: boolea
   }
 
   &__option {
-    background: linear-gradient(to right, rgb(55 59 68 / 80%), rgb(66 134 244 / 80%));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -69,16 +68,41 @@ const stageOptions: {name: string, date: string, value: Stage, disabled?: boolea
     padding: 5px 10px;
     position: relative;
     cursor: pointer;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+
+    &:nth-child(1) {
+      background: linear-gradient(to right, rgb(55, 59, 68), rgb(64, 83, 123));
+
+      &::after {
+        background: linear-gradient(to right, rgb(55, 59, 68), rgb(64, 83, 123));
+      }
+    }
+
+    &:nth-child(2) {
+      background: linear-gradient(to right, rgb(64, 83, 123), rgb(73, 108, 180));
+
+      &::after {
+        background: linear-gradient(to right, rgb(64, 83, 123), rgb(73, 108, 180));
+      }
+    }
+
+    &:nth-child(3) {
+      background: linear-gradient(to right, rgb(73, 108, 180), rgb(66, 134, 244));
+
+      &::after {
+        background: linear-gradient(to right, rgb(73, 108, 180), rgb(66, 134, 244));
+      }
+    }
 
     &:has(input:checked) {
-      background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
+      opacity: 1;
 
       &::after {
         content: '';
         position: absolute;
         width: 100%;
         height: 3px;
-        background: linear-gradient(to right, rgb(55, 59, 68), rgb(66, 134, 244));
         bottom: -4px;
       }
     }
