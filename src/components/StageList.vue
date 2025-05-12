@@ -15,7 +15,7 @@
 <script setup lang="ts">
 import CountryRow from '@/components/CountryRow.vue'
 import useContestStore from '@/composables/contestStore'
-import type { SongData } from '@/types'
+import type { SongData } from '@/types/SongData.type'
 
 const { contestData, selectedStage } = useContestStore()
 

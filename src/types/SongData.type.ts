@@ -1,4 +1,4 @@
-type SongData = {
+export type SongData = {
   country: string
   country_code: string
   artist: string
@@ -6,5 +6,3 @@ type SongData = {
   youtubeUrl?: string,
   disqualified?: boolean
 }
-
-export type { SongData };

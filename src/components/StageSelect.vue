@@ -25,7 +25,7 @@ import type { Stage } from "@/types/Stage.type"
 
 const { contestData, selectedStage } = useContestStore()
 
-const stageOptions: {name: string, date: string, value: Stage, disabled?: boolean} = [
+const stageOptions: {name: string, date: string, value: Stage, disabled?: boolean}[] = [
   {
     name: 'Semi-Final 1',
     value: 'semi1',
