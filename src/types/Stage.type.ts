@@ -1,0 +1,1 @@
+export type Stage = 'semi1' | 'semi2' | 'final' 

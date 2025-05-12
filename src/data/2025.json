@@ -1,0 +1,276 @@
+{
+  "semi1": {
+    "date": "2025-05-13",
+    "songs": [
+      {
+        "country": "Albania",
+        "country_code": "AL",
+        "artist": "Shkodra Elektronike",
+        "song": "Zjerm",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Azerbaijan",
+        "country_code": "AZ",
+        "artist": "Mamagama",
+        "song": "Run With U",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Belgium",
+        "country_code": "BE",
+        "artist": "Red Sebastian",
+        "song": "Strobe Lights",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Croatia",
+        "country_code": "HR",
+        "artist": "Marko Bošnjak",
+        "song": "Poison Cake",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Cyprus",
+        "country_code": "CY",
+        "artist": "Theo Evan",
+        "song": "Shh",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Estonia",
+        "country_code": "EE",
+        "artist": "Tommy Cash",
+        "song": "Espresso Macchiato",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Iceland",
+        "country_code": "IS",
+        "artist": "VÆB",
+        "song": "RÓA",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Netherlands",
+        "country_code": "NL",
+        "artist": "Claude",
+        "song": "C'est La Vie",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Norway",
+        "country_code": "NO",
+        "artist": "Kyle Alessandro",
+        "song": "Lighter",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Poland",
+        "country_code": "PL",
+        "artist": "Justyna Steczkowska",
+        "song": "GAJA",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Portugal",
+        "country_code": "PT",
+        "artist": "NAPA",
+        "song": "Deslocado",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "San Marino",
+        "country_code": "SM",
+        "artist": "Gabry Ponte",
+        "song": "Tutta L'Italia",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Slovenia",
+        "country_code": "SI",
+        "artist": "Klemen",
+        "song": "How Much Time Do We Have Left",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Sweden",
+        "country_code": "SE",
+        "artist": "KAJ",
+        "song": "Bara Bada Bastu",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "artist": "Ziferblat",
+        "song": "Bird of Pray",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "semi2": {
+    "date": "2025-05-15",
+    "songs": [
+      {
+        "country": "Armenia",
+        "country_code": "AM",
+        "artist": "PARG",
+        "song": "SURVIVOR",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Australia",
+        "country_code": "AU",
+        "artist": "Go-Jo",
+        "song": "Milkshake Man",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Austria",
+        "country_code": "AT",
+        "artist": "JJ",
+        "song": "Wasted Love",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Czechia",
+        "country_code": "CZ",
+        "artist": "ADONXS",
+        "song": "Kiss Kiss Goodbye",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Denmark",
+        "country_code": "DK",
+        "artist": "Sissal",
+        "song": "Hallucination",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Finland",
+        "country_code": "FI",
+        "artist": "Erika Vikman",
+        "song": "ICH KOMME",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Georgia",
+        "country_code": "GE",
+        "artist": "Mariam Shengelia",
+        "song": "Freedom",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Greece",
+        "country_code": "GR",
+        "artist": "Klavdia",
+        "song": "Asteromáta",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Ireland",
+        "country_code": "IE",
+        "artist": "EMMY",
+        "song": "Laika Party",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Israel",
+        "country_code": "IL",
+        "artist": "Yuval Raphael",
+        "song": "New Day Will Rise",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Latvia",
+        "country_code": "LV",
+        "artist": "Tautumeitas",
+        "song": "Bur Man Laimi",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Lithuania",
+        "country_code": "LT",
+        "artist": "Katarsis",
+        "song": "Tavo Akys",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Luxembourg",
+        "country_code": "LU",
+        "artist": "Laura Thorn",
+        "song": "La Poupée Monte Le Son",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Malta",
+        "country_code": "MT",
+        "artist": "Miriana Conte",
+        "song": "SERVING",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Montenegro",
+        "country_code": "ME",
+        "artist": "Nina Žižić",
+        "song": "Dobrodošli",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Serbia",
+        "country_code": "RS",
+        "artist": "Princ",
+        "song": "Mila",
+        "youtubeUrl": ""
+      }
+    ]
+  },
+  "final": {
+    "date": "2025-05-17",
+    "songs": [
+      {
+        "country": "France",
+        "country_code": "FR",
+        "artist": "Louane",
+        "song": "maman",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Germany",
+        "country_code": "DE",
+        "artist": "Abor & Tynna",
+        "song": "Baller",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Italy",
+        "country_code": "IT",
+        "artist": "Lucio Corsi",
+        "song": "Volevo Essere Un Duro",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Spain",
+        "country_code": "ES",
+        "artist": "Melody",
+        "song": "ESA DIVA",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Switzerland",
+        "country_code": "CH",
+        "artist": "Zoë Më",
+        "song": "Voyage",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "United Kingdom",
+        "country_code": "GB",
+        "artist": "Remember Monday",
+        "song": "What The Hell Just Happened?",
+        "youtubeUrl": ""
+      }
+    ]
+  }
+}

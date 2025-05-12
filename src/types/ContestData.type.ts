@@ -1,7 +1,9 @@
-import type { SongData } from './SongData.type';
+import type { StageData } from "./StageData.type"
 
 type ContestData = {
-  final: SongData[]
+  semi1: StageData
+  semi2: StageData
+  final: StageData
 }
 
 export type { ContestData }

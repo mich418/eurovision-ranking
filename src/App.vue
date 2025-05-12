@@ -6,18 +6,20 @@
         src="/eurovision_song_contest_logo.webp?url"
         alt="Eurovision Song Contest"
       />
-      <span class="app__header-title">Final 2024</span>
+      <span class="app__header-title">Finals {{ year }}</span>
       <span class="app__header-subtitle">Your private ranking</span>
     </header>
     <RouterView />
     <footer class="app__footer">
-      <span>Made by <a href="https://mihau.co/" target="_blank">mihau.co</a> (<a href="https://buycoffee.to/mihau.co" target="_blank">buy me a coffee</a>)</span> <a href="https://github.com/mihauco/eurovision-ranking" target="_blank">Github</a>
+      <span>Made by <a href="https://michal.dev/" target="_blank">Michal</a> (<a href="https://buymeacoffee.com/mich418" target="_blank">buy me a beer</a>)</span> <a href="https://github.com/mich418/eurovision-ranking" target="_blank">Github</a>
     </footer>
   </div>
 </template>
 
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
+import useContestStore from '@/composables/contestStore'
+const { year } = useContestStore()
 </script>
 
 <style lang="scss">
