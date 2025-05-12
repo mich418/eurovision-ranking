@@ -10,7 +10,7 @@
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "deploy": "npm run build && node createCNAME.js && gh-pages -d dist"
+    "deploy": "npm run build && gh-pages -d dist --cname eurovision.michal.dev"
   },
   "dependencies": {
     "flag-icons": "^7.2.1",
