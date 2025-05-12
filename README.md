@@ -1,9 +1,9 @@
-# Eurovision Song Contest Private Ranking App
+# Eurovision Song Contest Ranking App
 
-Simple web app made quickly with vue.js to help you making your own ranking of songs when watching Eurovision Song Contest (I'm a big fan, btw). Enjoy!
+A simple web app built quickly with Vue.js to help you create your own ranking of songs while watching the Eurovision Song Contest (I'm a big fan, by the way). Enjoy!
 
-You'll find it here: [eurovision-ranking.mihau.co](https://eurovision-ranking.mihau.co)
+You can access it here: [eurovision.michal.dev](https://eurovision.michal.dev)
 
-## Data persistence
+## Data Persistence
 
-Your ranking is saved in browser local storage.
+Your ranking is saved in your browser's local storage.
