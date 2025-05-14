@@ -11,7 +11,7 @@
     </header>
     <RouterView />
     <footer class="app__footer">
-      <span>Made by <a href="https://michal.dev/" target="_blank">Michal</a> (<a href="https://buymeacoffee.com/mich418" target="_blank">buy me a beer</a>)</span> <a href="https://github.com/mich418/eurovision-ranking" target="_blank">Github</a>
+      <span>Made by <a href="https://michal.dev/" target="_blank">Michal</a></span> <a href="https://github.com/mich418/eurovision-ranking" target="_blank">Github</a>
     </footer>
   </div>
 </template>
