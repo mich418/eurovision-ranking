@@ -270,6 +270,76 @@
         "artist": "Remember Monday",
         "song": "What The Hell Just Happened?",
         "youtubeUrl": "https://www.youtube.com/watch?v=-hu6R3ZnOdY"
+      },
+      {
+        "country": "Albania",
+        "country_code": "AL",
+        "artist": "Shkodra Elektronike",
+        "song": "Zjerm",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Sfvb761EEcM"
+      },
+      {
+        "country": "Estonia",
+        "country_code": "EE",
+        "artist": "Tommy Cash",
+        "song": "Espresso Macchiato",
+        "youtubeUrl": "https://www.youtube.com/watch?v=5MS_Fczs_98"
+      },
+      {
+        "country": "Iceland",
+        "country_code": "IS",
+        "artist": "VÆB",
+        "song": "RÓA",
+        "youtubeUrl": "https://www.youtube.com/watch?v=s9P83Nl6D1M"
+      },
+      {
+        "country": "Netherlands",
+        "country_code": "NL",
+        "artist": "Claude",
+        "song": "C'est La Vie",
+        "youtubeUrl": "https://www.youtube.com/watch?v=hEHwr5k9pd0"
+      },
+      {
+        "country": "Norway",
+        "country_code": "NO",
+        "artist": "Kyle Alessandro",
+        "song": "Lighter",
+        "youtubeUrl": "https://www.youtube.com/watch?v=pUjWzQ671MQ"
+      },
+      {
+        "country": "Poland",
+        "country_code": "PL",
+        "artist": "Justyna Steczkowska",
+        "song": "GAJA",
+        "youtubeUrl": "https://www.youtube.com/watch?v=YXHHDjiclxA"
+      },
+      {
+        "country": "Portugal",
+        "country_code": "PT",
+        "artist": "NAPA",
+        "song": "Deslocado",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Q3BELu4z6-U"
+      },
+      {
+        "country": "San Marino",
+        "country_code": "SM",
+        "artist": "Gabry Ponte",
+        "song": "Tutta L'Italia",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Le3WpaLYRvE"
+      },
+      {
+        "country": "Sweden",
+        "country_code": "SE",
+        "artist": "KAJ",
+        "song": "Bara Bada Bastu",
+        "youtubeUrl": "https://www.youtube.com/watch?v=WK3HOMhAeQY"
+      },
+      {
+        "country": "Ukraine",
+        "country_code": "UA",
+        "artist": "Ziferblat",
+        "song": "Bird of Pray",
+        "youtubeUrl": "https://www.youtube.com/watch?v=OJ1x2aiL7ks"
       }
     ]
   }
