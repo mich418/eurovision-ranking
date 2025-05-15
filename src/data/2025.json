@@ -340,6 +340,76 @@
         "artist": "Ziferblat",
         "song": "Bird of Pray",
         "youtubeUrl": "https://www.youtube.com/watch?v=OJ1x2aiL7ks"
+      },
+      {
+        "country": "Armenia",
+        "country_code": "AM",
+        "artist": "PARG",
+        "song": "SURVIVOR",
+        "youtubeUrl": "https://www.youtube.com/watch?v=RfH5o3XtI2c"
+      },
+      {
+        "country": "Austria",
+        "country_code": "AT",
+        "artist": "JJ",
+        "song": "Wasted Love",
+        "youtubeUrl": "https://www.youtube.com/watch?v=-ieSTNpxvio"
+      },
+      {
+        "country": "Denmark",
+        "country_code": "DK",
+        "artist": "Sissal",
+        "song": "Hallucination",
+        "youtubeUrl": "https://www.youtube.com/watch?v=gdCAgiSIOUc"
+      },
+      {
+        "country": "Finland",
+        "country_code": "FI",
+        "artist": "Erika Vikman",
+        "song": "ICH KOMME",
+        "youtubeUrl": "https://www.youtube.com/watch?v=Kg3QoTpnqyw"
+      },
+      {
+        "country": "Greece",
+        "country_code": "GR",
+        "artist": "Klavdia",
+        "song": "Asteromáta",
+        "youtubeUrl": "https://www.youtube.com/watch?v=aDiq8J9h6vQ"
+      },
+      {
+        "country": "Israel",
+        "country_code": "IL",
+        "artist": "Yuval Raphael",
+        "song": "New Day Will Rise",
+        "youtubeUrl": ""
+      },
+      {
+        "country": "Latvia",
+        "country_code": "LV",
+        "artist": "Tautumeitas",
+        "song": "Bur Man Laimi",
+        "youtubeUrl": "https://www.youtube.com/watch?v=RKw0OCgPV3s"
+      },
+      {
+        "country": "Lithuania",
+        "country_code": "LT",
+        "artist": "Katarsis",
+        "song": "Tavo Akys",
+        "youtubeUrl": "https://www.youtube.com/watch?v=R2f2aZ6Fy58"
+      },
+      {
+        "country": "Luxembourg",
+        "country_code": "LU",
+        "artist": "Laura Thorn",
+        "song": "La Poupée Monte Le Son",
+        "youtubeUrl": "https://www.youtube.com/watch?v=LVHu_KwHiKY"
+      },
+      {
+        "country": "Malta",
+        "country_code": "MT",
+        "artist": "Miriana Conte",
+        "song": "SERVING",
+        "youtubeUrl": "https://www.youtube.com/watch?v=sLVSwfRRvMA"
       }
     ]
   }
